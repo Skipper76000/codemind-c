@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
 int main()
 {
     float r,area, pi=3.14;
-    scanf("%f",&r);
+    cin>>r;
     area=pi*r*r;
-    printf("%0.2f",area);
+    cout<<fixed<<setprecision(2)<<area;
     return 0;
 }
