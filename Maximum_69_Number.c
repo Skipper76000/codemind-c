@@ -1,31 +1,26 @@
 #include<stdio.h>
-int main()
-{
-    int n,r,f,s,t,l;
+int main(){
+    int n,fi,s,t,fo;
     scanf("%d",&n);
-        l=n%10;//r=9
-        n=n/10;//n=966
-        t=n%10;
-        n=n/10;
-        s=n%10;
-        n=n/10;
-        f=n%10;
-        n=n/10;
-        if(f==6)
-        {
-            f=9;
-        }
-        else if(s==6)
-        {
-            s=9;
-        }
-        else if(t==6)
-        {
-            t=9;
-        }
-        else if(l==6)
-        {
-            l=9;
-        }
-        printf("%d%d%d%d",f,s,t,l);
-}
+    fo=n%10;
+    n/=10;
+    t=n%10;
+    n/=10;
+    s=n%10;
+    n/=10;
+    fi=n%10;
+    if(fi==6){
+        fi=9;
+    }
+    else if(s==6){
+        s=9;
+    }
+    else if(t==6){
+        t=9;
+    }
+    else if(fo==6){
+        fo=9;
+    }
+    printf("%d%d%d%d",fi,s,t,fo);
+    return 0;
+    }
