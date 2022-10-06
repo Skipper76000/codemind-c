@@ -1,13 +1,13 @@
-#include <stdio.h>
-
+#include<stdio.h>
+#include<math.h>
 int main(){
-    int t;
+    int n,m,t;
     scanf("%d",&t);
     while(t--){
-        int a,b;
-        scanf("%d %d",&a,&b);
-        int c=a+b;
-        printf("%d
-",c);
+    scanf("%d %d",&n,&m);
+    int sum=n+m;
+    printf("%d
+",sum);
     }
- }
+    return 0;
+}
