@@ -5,7 +5,10 @@ int main()
     scanf("%d",&n);
     while (n!=1)
     {
-        if (n%5==0){
+        if(n==0){
+            break;
+        }
+        else if (n%5==0){
             n=n/5;
         }
         else if(n%3==0){
