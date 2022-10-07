@@ -33,9 +33,9 @@ int main()
                 break;
             }
         }
-        d=n-cp;
-        e=sp-n;
-        if(d<e)
+        d=n-cp;//d=121-111=10
+        e=sp-n;//e=131-121=10
+        if(d<e)//
         {
             printf("%d",cp);
         }
