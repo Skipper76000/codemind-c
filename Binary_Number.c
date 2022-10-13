@@ -4,8 +4,7 @@ void printTheArray(int arr[], int n)
 	for (int i = 0; i < n; i++) {
 	    printf("%d",arr[i]);
 	}
-	printf("
-");
+	printf("\n");
 }
 
 void generateAllBinaryStrings(int n, int arr[], int i)
